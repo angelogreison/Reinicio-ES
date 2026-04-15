@@ -11,7 +11,7 @@
 .btn-outline:hover { background-color: var(--gold); color: var(--dark-green); }
 .strike { text-decoration: line-through; color: #999; }
 .gold-text { color: var(--gold); }
-.gold-text-bold { color: var(--gold); font-family: 'Montserrat', sans-serif; font-weight: 800; }
+.gold-text-bold { color: var(--gold); font-family: 'Lato', sans-serif; font-weight: 800; }
 .white-text { color: var(--white); }
 .mt-15 { margin-top: 15px; }
 .text-center { text-align: center; }
@@ -35,7 +35,7 @@
   .stats-grid { grid-template-columns: repeat(3, 1fr); gap: 20px; }
   .stat-item:not(:last-child) { border-right: 1px solid rgba(201,168,76,0.3); }
 }
-.stat-num, .stat-percent { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: clamp(36px, 8vw, 52px); color: var(--gold); line-height: 1; display: inline-block; }
+.stat-num, .stat-percent { font-family: 'Lato', sans-serif; font-weight: 800; font-size: clamp(36px, 8vw, 52px); color: var(--gold); line-height: 1; display: inline-block; }
 .stat-label { font-size: 12px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--dark-green); margin: 8px 0 4px; }
 .stat-desc { font-size: 14px; color: var(--text-sec); }
 
@@ -45,7 +45,7 @@
 @media (min-width: 1024px) { .problem-grid { grid-template-columns: repeat(3, 1fr); align-items: stretch; } }
 .problem-card { background: var(--white); border-radius: var(--radius-md); box-shadow: var(--shadow-card); border-top: 4px solid var(--gold); padding: var(--space-lg); text-align: left; }
 .icon-lg { font-size: 48px; line-height: 1; margin-bottom: 20px; }
-.prob-num { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 14px; text-transform: uppercase; color: var(--gold); letter-spacing: 2px; margin-bottom: 8px; }
+.prob-num { font-family: 'Lato', sans-serif; font-weight: 800; font-size: 14px; text-transform: uppercase; color: var(--gold); letter-spacing: 2px; margin-bottom: 8px; }
 .prob-title { font-weight: 700; font-size: 18px; color: var(--dark-green); margin-bottom: 12px; line-height: 1.3; }
 .problem-card p { font-size: 15px; color: var(--text-sec); line-height: 1.6; }
 
@@ -55,7 +55,7 @@
 @media (min-width: 1024px) { .timeline { flex-direction: row; gap: 0; align-items: flex-start; justify-content: space-between; } }
 .timeline-step { flex: 1; position: relative; padding-left: 70px; }
 @media (min-width: 1024px) { .timeline-step { padding-left: 0; padding-top: 80px; text-align: center; } }
-.circle-num { width: 56px; height: 56px; background-color: var(--dark-green); color: var(--gold); font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; position: absolute; left: 0; top: 0; z-index: 2; }
+.circle-num { width: 56px; height: 56px; background-color: var(--dark-green); color: var(--gold); font-family: 'Lato', sans-serif; font-weight: 800; font-size: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; position: absolute; left: 0; top: 0; z-index: 2; }
 @media (min-width: 1024px) { .circle-num { left: 50%; top: 0; transform: translateX(-50%); } }
 .timeline-line { display: none; }
 @media (min-width: 1024px) {
@@ -104,7 +104,7 @@
 .package-summary-box { background-color: var(--dark-green); color: var(--white); border-radius: var(--radius-lg); padding: 40px 20px; text-align: center; max-width: 600px; margin: 0 auto; box-shadow: 0 20px 40px rgba(0,0,0,0.2); border-bottom: 5px solid var(--gold); }
 .val-txt { font-size: 16px; color: rgba(255,255,255,0.7); margin-bottom: 5px; }
 .final-inv { font-size: 18px; font-weight: 700; color: var(--white); line-height: 1.2; margin-bottom: 16px; }
-.price-xl { font-family: 'Montserrat', sans-serif; font-size: clamp(48px, 10vw, 64px); color: var(--gold); font-weight: 800; display: block; margin: 5px 0; }
+.price-xl { font-family: 'Lato', sans-serif; font-size: clamp(48px, 10vw, 64px); color: var(--gold); font-weight: 800; display: block; margin: 5px 0; }
 .sm-iva { font-size: 12px; font-weight: normal; opacity: 0.7; }
 .urgent-sub { font-size: 14px; color: rgba(255,255,255,0.8); margin-bottom: 30px; font-style: italic; }
 .trust-icons-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-top: 20px; font-size: 13px; color: rgba(255,255,255,0.8); }
@@ -160,7 +160,7 @@ details[open] .faq-question::after { content: '−'; }
 .guar-icon { font-size: 64px; line-height: 1; margin-bottom: 20px; }
 .guar-text { color: var(--white); font-size: 18px; line-height: 1.6; margin-bottom: 24px; }
 .guar-firm { font-family: 'Playfair Display', serif; font-style: italic; color: var(--gold); font-size: 20px; margin-bottom: 30px; }
-.guar-badge { display: inline-block; border: 1px solid var(--gold); padding: 8px 24px; border-radius: 50px; font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 13px; letter-spacing: 1.5px; color: var(--gold); }
+.guar-badge { display: inline-block; border: 1px solid var(--gold); padding: 8px 24px; border-radius: 50px; font-family: 'Lato', sans-serif; font-weight: 800; font-size: 13px; letter-spacing: 1.5px; color: var(--gold); }
 
 /* SEC 11: CTA FINAL */
 .final-cta-sec { background: linear-gradient(160deg, #1B3A2D 0%, #2D5A3D 100%); color: var(--white); padding: 80px 0 120px; }
@@ -194,6 +194,11 @@ details[open] .faq-question::after { content: '−'; }
 
 /* Modales Legales (Mantenidos y adaptados) */
 .modal { display: none; position: fixed; inset: 0; background-color: rgba(0,0,0,0.8); z-index: 2000; overflow-y: auto; backdrop-filter: blur(4px); }
+@media (max-width: 767px) {
+  .modal { backdrop-filter: none; background-color: rgba(0, 0, 0, 0.98); }
+  .modal-overlay { backdrop-filter: none; background-color: rgba(0, 0, 0, 0.98); }
+}
+
 .modal.visible { display: block; }
 .modal-wrapper { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 2rem 1rem; }
 .modal-content { background-color: var(--white); color: var(--text-main); width: 100%; max-width: 700px; padding: 2.5rem; border-radius: 12px; position: relative; box-shadow: 0 20px 40px rgba(0,0,0,0.2); }
