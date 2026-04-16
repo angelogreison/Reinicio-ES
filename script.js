@@ -91,7 +91,7 @@ document.querySelectorAll('a[href*="hotmart.com"]').forEach(btn => {
         // Tracking AddToCart
         if (typeof fbq === 'function') {
             fbq('track', 'AddToCart', {
-                value: 6.36,
+                value: 17,
                 currency: 'USD',
                 content_name: 'Reinicio Biológico'
             });
